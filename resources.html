@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Poppins:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<!-- Main CSS -->
+    <link rel = "stylesheet" type = "text/css" href="css/main.css" />
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <title>Undercode</title>
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/8049d5025a.js"></script>
+</head>
+<body>
+	<!--============== navbar section ================= -->
+	<section class="navBar_section" id="navBar_section">
+		<div class="wrapper">
+		  <nav class="navbar">
+			  <span class="navbar-toggle" id="js-navbar-toggle">
+				  <i class="fa fa-bars"></i>
+			  </span>
+			  <a href="index.html" class="logo"><span class="logo">undercode.</span></a>
+			  
+			  <ul class="main-nav" id="js-menu">
+				<li>
+					<a href="index.html" class="nav-links">Home</a>
+				</li><li>
+					<a href="resources.html" class="nav-links">Resources</a>
+				</li>
+				  <li>
+					  <a href="singin.html" class="nav-links">Sign up</a>
+				  </li>
+				  <li>
+					  <a href="#" class="nav-links btn">Donate</a>
+				  </li>
+			  </ul>
+			</nav>
+		  </div>
+	  </section> <!-- ===== navbar end ===== -->
+	  		<div class="page-title">
+			<h1>Resources</h1>
+		</hr>
+		</div>
+			
+	</div>
+
+	<main class="cd-main-content">
+		<div class="cd-tab-filter-wrapper">
+			<div class="cd-tab-filter">
+				<ul class="cd-filters">
+					<li class="placeholder"> 
+						<a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
+					</li> 
+					<li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
+					<li class="filter" data-filter=".color-1"><a href="#0" data-type="color-1">Front End</a></li>
+					<li class="filter" data-filter=".color-2"><a href="#0" data-type="color-2">Back End</a></li>
+				</ul> <!-- cd-filters -->
+			</div> <!-- cd-tab-filter -->
+		</div> <!-- cd-tab-filter-wrapper -->
+		
+		<section class="cd-gallery">
+			<ul>
+				<li class="mix color-1 check1 radio1 option1"><img src="img/img-1.jpg" alt="Image 1">
+					<h2>Introduction to HTML</h2>
+					<p class="resources">Learn HTML5 by building your own website in less than an hour! This 15-part interactive tutorial is the perfect starting point for beginners who're looking for an introduction HTML to web development.</p>
+					<a href="https://scrimba.com/g/ghtml" style="color: blue">Learn more about it...</a>
+				</li>
+				<li class="mix color-2 check2 radio2 option2"><img src="img/img-2.jpg" alt="Image 2"></li>
+				<li class="mix color-1 check3 radio3 option3"><img src="img/img-3.jpg" alt="Image 3"></li>
+				<li class="mix color-1 check3 radio2 option4"><img src="img/img-4.jpg" alt="Image 4"></li>
+				<li class="mix color-1 check1 radio3 option2"><img src="img/img-5.jpg" alt="Image 5"></li>
+				<li class="mix color-2 check2 radio3 option3"><img src="img/img-6.jpg" alt="Image 6"></li>
+				<li class="mix color-2 check2 radio2 option1"><img src="img/img-7.jpg" alt="Image 7"></li>
+				<li class="mix color-1 check1 radio3 option4"><img src="img/img-8.jpg" alt="Image 8"></li>
+				<li class="mix color-2 check1 radio2 option3"><img src="img/img-9.jpg" alt="Image 9"></li>
+				<li class="mix color-1 check3 radio2 option4"><img src="img/img-10.jpg" alt="Image 10"></li>
+				<li class="mix color-1 check3 radio3 option2"><img src="img/img-11.jpg" alt="Image 11"></li>
+				<li class="mix color-2 check1 radio3 option1"><img src="img/img-12.jpg" alt="Image 12"></li>
+				<li class="gap"></li>
+				<li class="gap"></li>
+				<li class="gap"></li>
+			</ul>
+			<div class="cd-fail-message">No results found</div>
+		</section> <!-- cd-gallery -->
+
+		<div class="cd-filter">
+			<form>
+				<div class="cd-filter-block">
+					<h4>Search</h4>
+					
+					<div class="cd-filter-content">
+						<input type="search" placeholder="Try html...">
+					</div> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+				<div class="cd-filter-block">
+					<h4>Check boxes</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+						<li>
+							<input class="filter" data-filter=".check1" type="checkbox" id="checkbox1">
+			    			<label class="checkbox-label" for="checkbox1">HTML</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check2" type="checkbox" id="checkbox2">
+							<label class="checkbox-label" for="checkbox2">CSS</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
+							<label class="checkbox-label" for="checkbox3">JavaScript</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check4" type="checkbox" id="checkbox3">
+							   <label class="checkbox-label" for="checkbox3">Responsive Design</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check5" type="checkbox" id="checkbox3">
+							<label class="checkbox-label" for="checkbox3">UI / UX</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check6" type="checkbox" id="checkbox3">
+							<label class="checkbox-label" for="checkbox3">Bootstrap</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check7" type="checkbox" id="checkbox3">
+							<label class="checkbox-label" for="checkbox3">Materialize</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check8" type="checkbox" id="checkbox3">
+							<label class="checkbox-label" for="checkbox3">jQuery</label>
+						</li>
+						<li>
+								<input class="filter" data-filter=".check9" type="checkbox" id="checkbox3">
+								<label class="checkbox-label" for="checkbox3">JS ES6+</label>
+							</li>						
+							<li>
+									<input class="filter" data-filter=".check10" type="checkbox" id="checkbox3">
+									<label class="checkbox-label" for="checkbox3">Going Pro!</label>
+								</li>
+					</ul> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+				<div class="cd-filter-block">
+					<h4>Select</h4>
+					
+					<div class="cd-filter-content">
+						<div class="cd-select cd-filters">
+							<select class="filter" name="selectThis" id="selectThis">
+								<option value="">Choose an option</option>
+								<option value=".option1">HTML</option>
+								<option value=".option2">CSS</option>
+								<option value=".option3">JavaScript</option>
+								<option value=".option4">Responsive Design</option>
+								<option value=".option5">UI / UX</option>
+								<option value=".option6">Bootstrap</option>
+								<option value=".option7">Materialize</option>
+								<option value=".option8">jQuery</option>
+								<option value=".option9">JS ES6+</option>
+								<option value=".option10">Going Pro!</option>
+
+							</select>
+						</div> <!-- cd-select -->
+					</div> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+				<div class="cd-filter-block">
+					<h4>Radio buttons</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+							<li>
+									<input class="filter" data-filter="" type="radio" name="radioButton" id="radio1" checked>
+									<label class="radio-label" for="radio1">All</label>
+								</li>
+		
+								<li>
+									<input class="filter" data-filter=".radio2" type="radio" name="radioButton" id="radio2">
+									<label class="radio-label" for="radio2">Videos</label>
+								</li>
+		
+								<li>
+									<input class="filter" data-filter=".radio3" type="radio" name="radioButton" id="radio3">
+									<label class="radio-label" for="radio3">Books</label>
+								</li>
+						
+					</ul> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+			</form>
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-filter -->
+
+		<a href="#0" class="cd-filter-trigger">Filters</a>
+	</main> <!-- cd-main-content -->
+	<section>
+			<footer>
+			  <div class="wrapper">
+				  <ul class="footer_nav">
+					  <li>2019 by <a href="#">undecode</a></li>
+					  <li><a href="#">Data Privacy Policy</a></li>
+					  <li><a href="#">FAQ</a></li>
+					  <li>
+						  Contact
+						  <ul class="secondary">
+							  <li>info@undercode.com</li>
+							  <li>support@undercode.com</li>
+						  </ul>
+					  </li>
+					  <li>Lisbon, Portugal</li>
+					  <li></li>
+				  </ul>
+			  </div>
+			</footer>
+		</section>
+	<!-- ===== nav script ===== -->
+<script type="text/javascript" src="js/app.js"></script>
+<!-- ===== nav script end ===== -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
