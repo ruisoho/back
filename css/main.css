@@ -66,9 +66,12 @@ body {
   }
 
   .logo {
+<<<<<<< HEAD
+=======
       font-size: 1.4em;
       font-weight: bold;
       color: black;
+>>>>>>> upstream/master
     display: inline-block;
     margin-top: 10px;
     margin-left: 20px;
@@ -371,4 +374,7 @@ footer {
       display: none;
       }
   } /* ================ navigation styling end ====================== */
+<<<<<<< HEAD
+=======
 
+>>>>>>> upstream/master
