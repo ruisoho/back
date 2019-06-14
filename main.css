@@ -66,12 +66,9 @@ body {
   }
 
   .logo {
-<<<<<<< HEAD
-=======
       font-size: 1.4em;
       font-weight: bold;
       color: black;
->>>>>>> upstream/master
     display: inline-block;
     margin-top: 10px;
     margin-left: 20px;
@@ -374,7 +371,49 @@ footer {
       display: none;
       }
   } /* ================ navigation styling end ====================== */
-<<<<<<< HEAD
-=======
 
->>>>>>> upstream/master
+  /* ================ Show Page (course.html) ====================== */
+  .flex_container_course {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+    align-content: space-between;
+    margin: 50px 0;
+}
+  .content-description {
+    max-width: 25%;
+    padding: 0 25px 15px;
+}
+
+.content-video {
+    max-width: 85%;
+    padding: 0 25px 15px;
+}
+
+.course-download {
+    text-decoration: none;
+    background: #029DE0;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+@media screen and (max-width: 767px) {
+    .flex_container_course {
+        flex-direction: column;
+    }
+    .content-description {
+        max-width: 100%;
+    }
+    .content-video {
+        max-width: 100%;
+    }
+    .content-video iframe{
+        width:100%;
+        height:auto;
+        }
+
+}

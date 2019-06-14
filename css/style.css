@@ -1,11 +1,11 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
 -------------------------------- */
 *{
-  
-  font-family: 'Poppins', sans-serif;   
+
+  font-family: 'Poppins', sans-serif;
   }
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
@@ -23,7 +23,7 @@ html * {
 }
 
 body {
-  
+
   font-family: "Poppins", sans-serif;
   color: #029de0;
   background-color: #fff;
@@ -34,9 +34,9 @@ a {
   text-decoration: none;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main Components 
+Main Components
 
 -------------------------------- */
 .navbar a.logo{
@@ -51,7 +51,7 @@ font-size: 1.8em;
   color: #000;
 }
 .page-title hr{
-  
+
   width: 30px;
   border: 1px solid #029DE0;
   margin: 10px auto;
@@ -121,9 +121,9 @@ font-size: 1.8em;
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xtab-filter 
+xtab-filter
 
 -------------------------------- */
 .cd-tab-filter-wrapper {
@@ -270,9 +270,9 @@ xtab-filter
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xgallery 
+xgallery
 
 -------------------------------- */
 .cd-gallery {
@@ -281,32 +281,33 @@ xgallery
 }
 .cd-gallery li {
   margin-bottom: 1.6em;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding-bottom: 30px;
+  background: rgba(255,255,255,.97)!important;
+  box-shadow: 0 4px 12px 0 rgba(0,0,0,.05)!important;
   display: none;
 }
 .cd-gallery li h2{
   color: #000;
-  font-weight: bold;
-  margin-bottom: 10px;
+  font-weight: 400;
+  margin: 10px 0 5px;
   text-align: center;
+  text-transform: uppercase;
   list-style-type: none;
   line-height: 1.6em;
 }
 .cd-gallery li p{
   color: #000;
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 13px;
   text-align: center;
   list-style-type: none;
   line-height: 1.6em;
-  padding: 4%;
+  padding: 5px 10px;
 }
 .cd-gallery li a{
-  color: #029de0;
-  font-weight: bold;
-  margin-bottom: 15px;
-  text-align: left;
+  font-weight: 400;
+  text-align: center;
   list-style-type: none;
-  padding: 4%;
 }
 .cd-gallery li.gap {
   /* used in combination with text-align: justify to align gallery elements */
@@ -357,9 +358,9 @@ xgallery
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xfilter 
+xfilter
 
 -------------------------------- */
 .cd-filter {
@@ -484,9 +485,9 @@ xfilter
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xcustom form elements 
+xcustom form elements
 
 -------------------------------- */
 .cd-filter-block {
